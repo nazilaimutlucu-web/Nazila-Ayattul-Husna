@@ -52,7 +52,7 @@ ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
 
 new Typed('.multiple-text', {
 /*================ typed js ====================*/
-    strings: ['Frontend Developer', 'YouTuber', 'Blogger'],
+    strings: ['Student', 'Content Creator', 'Beautiful Girl'],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,
