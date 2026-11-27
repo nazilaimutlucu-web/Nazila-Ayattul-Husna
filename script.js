@@ -58,3 +58,18 @@ new Typed('.multiple-text', {
     backDelay: 1000,
     loop: true
 });
+
+
+// Read More untuk About + Services
+document.querySelectorAll('.read-more-btn').forEach(button => {
+  button.addEventListener('click', () => {
+    const moreText = button.parentElement.querySelector('.more-text');
+    if (moreText.style.display === 'none') {
+      moreText.style.display = 'block';
+      button.textContent = 'Read Less';
+    } else {
+      moreText.style.display = 'none';
+      button.textContent = 'Read More';
+    }
+  });
+});
